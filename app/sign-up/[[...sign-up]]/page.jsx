@@ -5,7 +5,7 @@ import React from "react";
 const SignUpPage = () => {
   return (
     <div className="flex justify-center pt-50">
-      <SignUp />;
+      <SignUp />
     </div>
   );
 };
