@@ -36,7 +36,7 @@ const FeatureCard = ({ icon, title, description, delay = 0 }) => {
 const FeaturesSection = () => {
   const features = [
     {
-      icon: <Wand classname="h-8 w-8 text-red-500" />,
+      icon: <Wand className="h-8 w-8 text-red-500" />,
       title: "One-Click Magic",
       description:
         "Apply stunning Ai filters and corrections with just a single tap.",
@@ -54,19 +54,19 @@ const FeaturesSection = () => {
         "Enhance portraits with skin smoothing, lighting fixes, and color correction.",
     },
     {
-      icon: <BotIcon className="h-8 w-8 text-white-500" />,
+      icon: <BotIcon className="h-8 w-8 text-purple-500" />,
       title: "AI-Powered Style Transfer",
       description:
         "Turn your images into artworks with intelligent style transfer trained on real paintings and styles",
     },
     {
-      icon: <SparkleIcon className="h-8 w-8 text-purple-500" />,
+      icon: <SparkleIcon className="h-8 w-8 text-red-500" />,
       title: "Creative Filters",
       description:
         "From cyberpunk to film grain - explore 25+ smart filters that adopt to your photo's mood.",
     },
     {
-      icon: <ImagePlusIcon className="h-8 w-8 text-red-500" />,
+      icon: <ImagePlusIcon className="h-8 w-8 text-purple-500" />,
       title: "Fast & Lightweight",
       description:
         "Pixoraa loads fast, edits faster - with optimization for low-bandwidth and mobile users.",
