@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import FeaturesSection from "@/components/features";
+import Pricing from "@/components/pricing";
 
 export default function Home() {
   const stats = [
@@ -44,6 +45,7 @@ export default function Home() {
       <FeaturesSection />
 
       {/* pricing */}
+      <Pricing />
 
       <section className="py-20 text-center">
         <div className="max-w-3xl mx-auto px-5">
