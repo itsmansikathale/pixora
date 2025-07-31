@@ -57,7 +57,7 @@ const FeaturesSection = () => {
       icon: <BotIcon className="h-8 w-8 text-white-500" />,
       title: "AI-Powered Style Transfer",
       description:
-        "Turn your images into artworks with intelligent style transfer trained on real paintings and styyles",
+        "Turn your images into artworks with intelligent style transfer trained on real paintings and styles",
     },
     {
       icon: <SparkleIcon className="h-8 w-8 text-purple-500" />,
