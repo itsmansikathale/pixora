@@ -18,7 +18,7 @@ export const create = mutation({
     if (user.plan === "free") {
       const projectCount = await ctx.db
         .query("projects")
-        .withIndex("by_user", (q) => ("user_id", user_id))
+        .withIndex("by_user", (q) => q.eq("user_id", user_id))
         .collect();
       if (projectCount.length >= 3) {
         throw new Error(
@@ -71,7 +71,7 @@ export const deleteProject = mutation({
       throw new Error("Project Not Found");
     }
 
-    if (!user || project.userId !== user.id) {
+    if (!user || project.userId !== user._id) {
       throw new Error("Access Denied");
     }
 
