@@ -1,6 +1,6 @@
 "use client";
 import { SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -28,13 +28,13 @@ const Header = () => {
       items-center justify-between gap-8"
       >
         <Link href="/" className="mr-10 md:mr-20">
-          {/* <Image
-            src="/pixora.png"
-            alt="Pixora"
-            className="min-w-24 object-cover"
-            width={100}
-            height={30}
-          /> */}
+          <Image
+            src="/picoraa.png"
+            alt="Picoraa"
+            className="min-w-20  object-cover"
+            width={180}
+            height={80}
+          />
         </Link>
 
         {path === "/" && (
